@@ -57,4 +57,9 @@ int searchValue(Bst*, int);
 //      sigue el recorrido in-order
 int searchPosition(Bst*, int);
 
+// metodo countChild
+//      Se encarga de contar la cantidad de nodos desde un nodo raiz
+//      cualquiera
+int countChild(Bst*);
+
 #endif
